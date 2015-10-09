@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zaika.ayussh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash_scr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="What Cuisine would you like ??" >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DineIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.DINEIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Delivery"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.DELIVERY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Indian"
+            android:label="The following Restaurants near you offer Indian Cuisine." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.INDIAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Italian"
+            android:label="The following Restaurants near you offer Italian Cuisine." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.ITALIAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mexican"
+            android:label="The following Restaurants near you offer Mexican Cuisine." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.MEXICAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Thai"
+            android:label="The following Restaurants near you offer Thai Cuisine." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.THAI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chinese"
+            android:label="The following Restaurants near you offer Chinese Cuisine." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.CHINESE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FastFood"
+            android:label="The following Restaurants near you offer Fast Food." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.FASTFOOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tara_Maa"
+            android:label="The following Restaurants near you offer Fast Food." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.TARAMAA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hundreds_Heritage"
+            android:label="The following Restaurants near you offer Fast Food." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.HUNDREDS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Olive_Kitchen"
+            android:label="The following Restaurants near you offer Fast Food." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.OLIVE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Grt_Regency"
+            android:label="The following Restaurants near you offer Fast Food." >
+            <intent-filter>
+                <action android:name="com.zaika.ayussh.GRT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
